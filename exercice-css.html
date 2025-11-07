@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue
+        }
+        p {
+            color: green
+        }
+        div{
+            color: red
+        }
+        #paragraph {
+            color: orange
+        }
+        .paragraph {
+            background: violet
+        }
+        div .paragraph:nth-child(3) {
+            background: yellow;
+            color: black;
+        }
+        /*display: ; */
+        div .paragraph:nth-child(4) {
+           Display: none
+        }
+    </style>
+</head>
+<body>
+  <h1>Bonjour</h1>  
+  <p>Hello</p>
+  <div>Salam</div>
+  <h2>Holà</h2>
+  <div>
+    <p class="paragraph">Salut à tous</p>
+    <p class="paragraph">Salut à tous</p>
+    <p class="paragraph">Salut à tous</p>
+    <p class="paragraph">Salut à tous</p>
+  </div>
+
+</body>
+</html>
